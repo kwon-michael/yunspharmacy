@@ -4,68 +4,216 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Crete+Round" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href = "vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href = "vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href = "vendors/css/ionicons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    
 
     <title>Yuns Pharmacy</title>
 </head>
     <body>
-        <div class = "top-heading">
-            <h1 class = "Yuns-pharmacy">
-                <span class = "yun-text">Yuns</span>
-                <span class = "pharmacy-text">Pharmacy</span>    
-            </h1>
-            <a href = '#' class = "btn contact-yellow"></a>
-            <h1 class = "sidebar">
-                <a href = '#' class = "btn-side home-button">Home</a>
-                <a href = '#' class = "btn-side services-button">Services</a>  
-            </h1>  
-        </div>
-        <div>
-            <h1 class = "covid-info">
-                <span class = "covid-text">For information on COVID-19 VACCINE</span>
-                <a href = '#' class = "btn-2 click-button"></a>
-            </h1>
-            <span class = "border-top"></span>
-            <span class = "border-bottom"></span>
-        </div>
-        <div class = "img-kids"></div>  
-        </div>
-        <p class = banner-text>  
-            <span class = "feel">Feel</span>
-            <span class = "happy-healthy">happy & healthy</span>
-            <span class = "banner-desc">Come in today to learn how YOU can maintain a healthy lifestyle!</span>
-        </p>
-        <div class = "info-bar">
-            <span class="img-header"></span>
-            <h1 class ="header-text">A Pharmacy for Your Health</h1>
-            <h1 class = "header-desc">Yuns Pharmacy is dedicated to providing YOU with the answers to maintaining a healthy lifestyle.</h1>
-            <a href = '#' class = "btn-header learn-more"></a>
-            <span class = "yellow-triangle"></span>
-            <span class = "border"></span>
-        </div>
-        <div class = "help-splitter">
-            <h1 class ="help-header">
-                How we can Help
-            </h1>
-            <ul>
-                <li>Free consultation with pharmacist</li>
-                <li>Prescription Deliveries</li>
-                <li>Home care Solutions</li>
+        <header>
+            <nav>
+                <div class = "row">
+                    <ul class="main-nav">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-text-box"> 
+                <h1>a pharmacy you can trust. <br>Medicine for your well-being</h1>
+                <a href="#learn-more" class="btn btn-ghost">Learn More</a>
+            </div>
+        </header>
+
+        <section class="section-features" id="learn-more">
+            <div class="row">
+                <h2>Be healthy &mdash; Be Happy</h2>
+                <p class="intro">
+                    At Yun's pharmacy we believe a healthy lifestyle leads to a happy lifestyle.
+                    Come in to talk to our pharmacist about maintaining a healthy lifestyle!
+                </p>
+            </div>
+            <div class="row">
+                <div class=" col span-1-of-4 box">
+                    <i class="ion-ios-person-outline icon-big"></i>
+                    <h3>Ask the Experts</h3>
+                    <p>Our pharmacists are ready to help you to enhance your well-being with expert consultation and medical guidance. 
+                        Feel free to ask questions and express your concerns.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-cart-outline icon-big"></i>
+                    <h3>Free Delivery</h3>
+                    <p>We work with you to create an easy pharmacy experience. 
+                        Experience hassle-free healthcare with our pharmacy's complimentary delivery service</p>
+                </div>
+                <div class=" col span-1-of-4 box">
+                    <i class="ion-ios-medkit-outline icon-big"></i>
+                    <h3>Get your Vaccines</h3>
+                    <p>Discover a healthier future with our pharmacy's convenient and reliable vaccination service and expert guidance.
+                        Feel free to ask us about immunization</p>
+                </div>
+                <div class=" col span-1-of-4 box">
+                    <i class="ion-ios-star-outline icon-big"></i>
+                    <h3>Quality Medicine</h3>
+                    <p>Our pharmacy is commited to providing you with the best personalized care, comprehensive medication solutions, reliable medications 
+                        and informed medical decisions to optimize your health and well-being.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-food">
+            <ul class="meal-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="/img/1.jpg" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="/img/2.jpg" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="/img/3.jpg" alt="">
+                    </figure>
+                </li>    
             </ul>
-        </div>
-        <span class="other-header"></span>
-        <span class = "border-help"></span>
-        <div class = "yellow-header">
-            <h1 class=" heading-bottom">Located 2 minutes from Yonge & Sheppard </h1>
-            <h1 class = "hours-header">Hours of Operation</h1>
-            <ul class = "hours-of-op">
-                <li>Monday to Friday: 9:00 AM - 6:00 PM</li>
-                <li>Saturday: 9:00 AM - 2:00 PM</li>
-                <li>Sunday : Closed </li>
-                <li>Closed on all Statutory Holidays</li>
+            <ul class="meal-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="/img/4.jpg" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="/img/5.jpg" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="/img/6.jpg" alt="">
+                    </figure>
+                </li>
             </ul>
-        </div>
+        </section>
+        <section class="section-diet">
+            <div class="row">
+                <h2>Fuel your body &mdash; Ignite your health</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 diet-info">
+                    <img src="/img/dietician.webp" alt="pic of dietician" class="dietician-pic">
+                </div>
+                <div class="col span-1-of-2 diet-info">
+                    <i class="ion-ios-nutrition-outline icon-big"></i>
+                    <h3 class="health-header">Your health starts with food!</h3>
+                    <p class="long-copy">
+                        We believe that a healthy diet is the key to maintaining a vibrant, thriving body. 
+                        We are dedicated to empowering you by providing expert guidance and personalized nutrition solutions.
+                        With our help, we invite you to fuel your body, ignite your health and transform your life.
+                        Join us and ask how you can start improving your health with food!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-services" id="Services">
+            <div class="row">
+                <h2>Our Services</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 blood-pressure">
+                    <h3 class="health-header">Measure Your Blood Pressure</h3>
+                    <p class="long-copy">
+                        We provide accurate and reliable blood  monitoring solutions, alongside personalized guidance for proactive management.
+                        Our guide shows you what you need to know about your blood pressure. For further inquiries visit the pharmacy or your nearest healthcare provider.
+                    </p>
+                </div>
+                
+                <div class="col span-1-of-2 blood-pressure">
+                    <img src="/img/bloodpressure.jpg" alt="blood pressure pic" class="services-pic">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 blood-pressure">
+                    <h3 class="health-header">Get your Vaccine</h3>
+                    <p class="long-copy">
+                        With a wide range of vaccines available, we are committed to providing convenient access to immunization services, ensuring that you and your loved ones stay protected.
+                        We offer vaccination to the flu, shingles as well as many common travel vaccines. Visit us or give us a call for additional information.              
+                    </p>
+                </div>
+                <div class="col span-1-of-2 blood-pressure">
+                    <img src="/img/vaccine.jpg" alt="vaccine" class="services-pic">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 blood-pressure">
+                    <h3 class="health-header">Recycle Your Medicine</h3>
+                    <p class="long-copy">
+                        At our pharmacy, we are committed to not only providing essential medications but also fostering a greener and more sustainable world.
+                        Bring your expired and unwanted medicines to us or the pharmacy nearest you for proper disposal.    
+                        Let's make a positive impact on our health and our planet by embracing responisble medicine recycling!         
+                    </p>
+                </div>
+                <div class="col span-1-of-2 blood-pressure">
+                    <img src="/img/medicine.jpg" alt="medicine pills" class="services-pic">
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="section-contact" id="Contact">
+            <div class="row">
+                <h2 class="contact-text">Contact Us</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 contact-column">
+                    <h4>By Mail:</h4>
+                    <p><strong>YUNS PHARMACY</strong><br>Unit 120, 4750 Yonge St <br>Toronto, Ontario M2N 0J6</p>
+                    <h4>By Fax:</h4>
+                    <p>416&mdash;792&mdash;0091</p>
+                    <h4>By Phone:</h4>
+                    <p>416&mdash;792&mdash;0088</p>
+                    <h4>By Email:</h4>
+                    <p>yun@yunspharmacy.com</p>
+                    <h4>KakaoTalk:</h4>
+                    <img src="/img/kakaotalk.png" alt="kakaotalk logo" class="kakaotalk-logo">
+                    <p>@kim6jung</p>
+                    <h4>Hours of Operation:</h4>
+                    <p class="hours
+                    ">Monday to Friday: 9:00 AM - 6:00 PM, EST <br>
+                        Saturday: 9:00 AM - 2:00 PM EST <br>
+                        Sunday : Closed <br>
+                        <strong>Closed on all Statutory Holidays</strong> 
+                    </p>
+                </div>
+                <div class="col span-2-of-3">
+                    <img src="/img/directions.png" alt="directions" class="directions-pic">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">  
+                <ul class="footer-nav">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#learn-more">Learn More</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2023 by Yun's Pharmacy. All rights reserved.
+                </p>
+            </div>
+        </footer>
         
     </body>
 </html>
