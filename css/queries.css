@@ -1,0 +1,63 @@
+/* 1200px to 1500px (widths smaller than 1140 px row) */
+@media only screen and (max-width: 1506px){
+
+    .directions-pic{
+        width: 90%;
+        margin-left: 2%;
+    }
+    
+}
+
+/* 1023px to 1200px (widths smaller than 1140 px row) */
+@media only screen and (max-width: 1200px){
+    .header-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{padding: 0 2%;}
+
+}
+
+@media only screen and (max-width: 1023px){
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+
+    .intro{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    footer{
+        padding: 50px;
+        font-size: 70%;
+    }
+}
+
+/* small phones to small tablets 481-767px */
+@media only screen and (max-width: 767px){
+    .row,
+    .header-text-box{ padding: 0 4%;}
+    .col{
+        width: 100%;
+        margin: 0 0 1% 0;
+    }
+    .main-nav{display: none;}
+    .long-copy{margin-bottom: 10px;}
+    .dietician-pic{
+        width: 80%; 
+        margin-right: 5%;
+    }
+    .services-pic{
+        width: 60%; 
+        margin-left: 20%;
+    }
+    .directions-pic{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    section{padding: 25px 0;}
+}

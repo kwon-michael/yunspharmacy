@@ -146,9 +146,9 @@ section{
 /* ------------------------------------------------------------- */
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/img/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/img/storefront.jpg);
     background-size:cover;
-    background-position:center;
+    background-position:top;
     height: 100vh;
     background-attachment: fixed;
    
