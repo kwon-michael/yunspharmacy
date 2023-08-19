@@ -13,6 +13,7 @@
     
 
     <title>Yuns Pharmacy</title>
+    
 </head>
     <body>
         <header id="Home">
@@ -21,6 +22,7 @@
                     <ul class="main-nav">
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#Services">Services</a></li>
+                        <li><a href="#druginfo">Drug Info</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </div>
@@ -151,7 +153,31 @@
             </div>
             
         </section>
+            
+        <section class="section-information" id="druginfo">
+            <div class="row">
+                <h2>Drug Information</h2>
+                <p class="long-copy">
+                   This Symptom-based drug guide will help you discover what medication is appropriate according to your symptoms. The following drugs and side effects are supplemented by the OpenFDA API. 
+                   This is for testing purposes only and should never be used for actual healthcare advice. Please consult a healthcare professional for all drug related inquiries.   
+                </p>
+                <div class="info-container">
+                    <div id="app">
+                        <label for="symptom">Symptom:</label>
+                        <input type="text" id="symptom" />
+                        <button id="search">Search</button>
+                        <div id="results"></div>
+                    </div>
+                    <!-- <form action="" class="search-bar">
+                        <label for="symptom">Symptom:</label>
+                        <input type="text" placeholder = "search here" name="q" id="symptom">
+                        <button type="submit" id="search">Search here</button>
+                        <div id="results"></div>
+                    </form> -->
+                </div>
 
+            </div>
+        </section>
         <section class="section-contact" id="Contact">
             <div class="row">
                 <h2 class="contact-text">Contact Us</h2>
@@ -203,6 +229,6 @@
                 </p>
             </div>
         </footer>
-        
+        <script src="script.js"></script>
     </body>
 </html>
