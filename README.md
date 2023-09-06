@@ -1,2 +1,2 @@
 # yunspharmacy
-Website for Yunspharmacy using HTML and CSS
+Website for Yunspharmacy using HTML, CSS and JavaScript
